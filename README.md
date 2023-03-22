@@ -2,6 +2,8 @@
 
 This repository provides a Python script that uses the Black-Scholes Model to find the option with the highest likelihood of positive gains for a specified stock ticker and expiration dates. The script retrieves options chain data for the specified ticker and calculates the expected gains using the Black-Scholes formula for each option. It then returns the strike price and expiration date of the option with the highest expected gain.
 
+Installation - copy git command bellow
+
 git clone https://github.com/ahokanson5804/Black-Scholes-Optimal-Option.git
 
 Install these packages: 
@@ -10,7 +12,7 @@ Install these packages:
 
 Usage:
 
-Open the black_scholes_optimal_option.py file and modify the ticker and exp_dates variables as needed. Only analyses one ticker at a time.
+Open the <black_scholes_optimal_option.py> file and modify the 'ticker' and 'exp_dates' variables as needed. Only analyses one ticker at a time.
 
     ticker = 'AAPL'
     exp_dates = ['2023-04-21', '2023-05-19', '2023-06-16']
