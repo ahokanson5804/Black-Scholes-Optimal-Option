@@ -4,7 +4,7 @@ This repository provides a Python script that uses the Black-Scholes Model to fi
 
 Installation - copy git command bellow
 
-git clone https://github.com/ahokanson5804/Black-Scholes-Optimal-Option.git
+    git clone https://github.com/ahokanson5804/Black-Scholes-Optimal-Option.git
 
 Install these packages: 
 
